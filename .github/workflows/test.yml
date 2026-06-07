@@ -1,0 +1,13 @@
+name: Test Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f2001944@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+      - name: Verify
+        run: date
